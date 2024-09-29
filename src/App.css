@@ -1,0 +1,72 @@
+/* waving hand custom css */
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* image custom css */
+.img-container {
+  /* animation: morph 8s ease-in-out infinite; */
+  background-image: url(./assets/b.jpg);
+  /* background-position: 50%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 50%;
+  /* height: 100%; */
+  position: relative;
+  transition: all 1s ease-in-out;
+  /* width: 100%;
+       */
+  width: 500px;
+  height: 600px;
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
