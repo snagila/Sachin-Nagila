@@ -4,7 +4,6 @@ const TextAnimation = () => {
   return (
     <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
         "Full Stack Developer",
         1000,
         "MERN Stack Developer",

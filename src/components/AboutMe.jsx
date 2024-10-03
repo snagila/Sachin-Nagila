@@ -15,15 +15,6 @@ const About = () => {
             </h2>
             <div className="flex justify-center">
               <p className="text-center md:text-lg leading-relaxed  ">
-                {/* I am a dedicated Software Developer , specializing in full-stack
-              development using the MERN stack (MongoDB, Express, React, and
-              Node.js). My expertise spans both frontend and backend
-              development, allowing me to build seamless and efficient web
-              applications. With a keen eye for design and a strong passion for
-              crafting innovative digital solutions, I continuously strive to
-              deliver exceptional user experiences and high-quality code. I
-              thrive on solving complex problems and am always eager to learn
-              new technologies and improve my skills. */}
                 Hi, I’m Sachin, a full-stack developer with 1 year and 6 months
                 of experience. Besides my formal education, I completed an
                 intensive bootcamp at Dented Code to further upskill and expand
