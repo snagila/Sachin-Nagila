@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
 
           <p className="mt-[1.5rem] font-bold text-[20px] text-[#00000] text-center">
-            FullStack Software Engineer with high level of experience in both
+            FullStack Software Developer with high level of experience in both
             frontend and backend development, producing Quality work.
           </p>
 
