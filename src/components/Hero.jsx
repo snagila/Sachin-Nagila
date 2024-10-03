@@ -1,5 +1,5 @@
 import React from "react";
-import "../app.css";
+import "../../src/App.css";
 import { motion } from "framer-motion";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid/index.js";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
