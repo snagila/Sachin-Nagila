@@ -3,9 +3,9 @@ import a from "../assets/a.jpg";
 const About = () => {
   return (
     <section
-      className="py-16 bg-gray-500 text-gray-800 backdrop-blur-sm"
+      className="py-16 bg-customdark text-gray-800 backdrop-blur-sm"
       id="about"
-      style={{ backgroundColor: "#F6F1EB" }}
+      // style={{ backgroundColor: "#D9CFC3" }}
     >
       <div className="mx-auto max-w-7xl flex flex-col px-4 xl:text-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-10 px-4 justify-center items-center">

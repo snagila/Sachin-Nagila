@@ -35,7 +35,7 @@ const Hero = () => {
             transition={{ type: "tween", duration: 2, ease: "easeInOut" }}
             className="flex flex-col items-center gap-2"
           >
-            <a href="/a.pdf" download="sachinnagila-resume.pdf">
+            <a href="/Sachin_Nagila.pdf" download="sachinnagila-resume.pdf">
               <button className="mt-10 px-10 py-4 text-white bg-teal-800 rounded-lg shadow-lg font-semibold hover:bg-teal-500 flex items-center justify-center">
                 Download CV
                 <ArrowDownTrayIcon className="h-6 w-6 ml-2" />{" "}

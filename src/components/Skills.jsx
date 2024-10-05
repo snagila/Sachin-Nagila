@@ -15,6 +15,7 @@ import {
   SiBootstrap,
   SiRedux,
   SiStripe,
+  SiTypescript,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -30,6 +31,10 @@ const skills = [
   {
     icon: <FaJs className="text-yellow-500 w-6 h-6" />,
     name: "JavaScript",
+  },
+  {
+    icon: <SiTypescript className="text-blue-500 w-6 h-6" />,
+    name: "TypeScript",
   },
   {
     icon: <FaReact className="text-blue-400 w-6 h-6" />,
@@ -75,9 +80,8 @@ const Skills = () => {
 
   return (
     <section
-      className="px-5 lg:px-20 py-6 backdrop-blur-sm"
+      className="px-5 lg:px-20 py-6 backdrop-blur-sm bg-customlight"
       id="skills"
-      style={{ backgroundColor: "#F6F1EB" }}
     >
       <div className="mx-auto max-w-[1440px] flex flex-col overflow-hidden">
         <h2 className="text-xl md:text-3xl font-bold text-center text-orange-500 mb-16 tracking-wider font-mono">
@@ -89,7 +93,7 @@ const Skills = () => {
           <motion.div
             className="flex gap-12"
             animate={{ x: [-1000, 0] }} // Adjust x values based on your content width
-            transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
           >
             {duplicatedSkills.map((skill, index) => (
               <div key={index} className="flex flex-col gap-2 items-center">
@@ -107,7 +111,7 @@ const Skills = () => {
           <motion.div
             className="flex gap-12"
             animate={{ x: [0, -1000] }} // Adjust x values based on your content width
-            transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
           >
             {duplicatedSkills.map((skill, index) => (
               <div key={index} className="flex flex-col gap-2 items-center">

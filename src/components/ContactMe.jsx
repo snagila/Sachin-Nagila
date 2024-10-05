@@ -67,7 +67,7 @@ const Contact = () => {
 
   return (
     <section
-      className="py-16 bg-[#121212] text-black bg-customlight"
+      className="py-16  text-black bg-customdark backdrop-blur-sm"
       id="contact"
     >
       <div className="pt-[1rem] md:pt-[4rem] pb-[2rem] md:pb-[4rem] ">
