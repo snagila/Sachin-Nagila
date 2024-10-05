@@ -34,7 +34,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="xl:hidden flex justify-center items-center overflow-hidden">
+          <div className=" flex justify-center items-center overflow-hidden xl:hidden">
             <img src={a} alt="Bikash" className="h-[450px]" />
           </div>
         </div>

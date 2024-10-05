@@ -30,7 +30,7 @@ const BackgroundParticles = ({ header, hero }) => {
           interactivity: {
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: "push",
               },
               onHover: {
@@ -55,10 +55,10 @@ const BackgroundParticles = ({ header, hero }) => {
             },
             links: {
               color: "#000000",
-              distance: 150,
+              distance: 150, //150
               enable: true,
-              opacity: 0.5,
-              width: 1,
+              opacity: 0.2, //0.5
+              width: 1, //1
             },
             move: {
               direction: "none",
