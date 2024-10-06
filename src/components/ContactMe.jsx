@@ -12,7 +12,7 @@ const Contact = () => {
     phone: "",
     message: "",
   });
-
+  console.log(formDetails);
   const [status, setStatus] = useState({
     message: "",
     success: false,
@@ -31,11 +31,19 @@ const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
 
+    const templateParams = {
+      firstName: formDetails.firstName,
+      lastName: formDetails.lastName,
+      email: formDetails.email,
+      phone: formDetails.phone,
+      message: formDetails.message,
+    };
+
     emailjs
-      .sendForm(
+      .send(
         import.meta.env.VITE_APP_SERVICE_ID,
         import.meta.env.VITE_APP_TEMPLATE_ID,
-        e.target,
+        templateParams,
         import.meta.env.VITE_APP_PUBLIC_KEY
       )
       .then(
@@ -130,7 +138,7 @@ const Contact = () => {
                 value={formDetails.firstName}
                 placeholder="First Name"
                 onChange={(e) => onFormUpdate("firstName", e.target.value)}
-                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-[#55e6a5]"
+                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-black-200"
                 required
               />
               <input
@@ -139,7 +147,7 @@ const Contact = () => {
                 value={formDetails.lastName}
                 placeholder="Last Name"
                 onChange={(e) => onFormUpdate("lastName", e.target.value)}
-                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-[#55e6a5]"
+                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-black-200"
                 required
               />
               <input
@@ -148,7 +156,7 @@ const Contact = () => {
                 value={formDetails.email}
                 placeholder="Email Address"
                 onChange={(e) => onFormUpdate("email", e.target.value)}
-                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-[#55e6a5]"
+                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-black-200"
                 required
               />
               <input
@@ -157,7 +165,7 @@ const Contact = () => {
                 value={formDetails.phone}
                 placeholder="Phone No."
                 onChange={(e) => onFormUpdate("phone", e.target.value)}
-                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-[#55e6a5]"
+                className="p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-black-200"
                 required
               />
             </div>
@@ -167,7 +175,7 @@ const Contact = () => {
               value={formDetails.message}
               placeholder="Message"
               onChange={(e) => onFormUpdate("message", e.target.value)}
-              className="w-full p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-[#55e6a5]"
+              className="w-full p-4 rounded-lg bg-customdark backdrop-blur-sm text-black placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-black-200"
               required
             ></textarea>
             <button

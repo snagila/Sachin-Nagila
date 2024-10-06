@@ -1,5 +1,6 @@
 import React from "react";
 import projectArray from "./projectArray";
+import { FaGithub } from "react-icons/fa6";
 
 const Projects = () => {
   return (
@@ -25,16 +26,23 @@ const Projects = () => {
                 />
                 <a
                   href={project.projectUrl}
-                  className="absolute inset-0 flex items-center justify-center bg-customLight bg-opacity-50 text-white text-xl opacity-0 hover:opacity-100 transition-opacity duration-200"
+                  className="absolute inset-0 flex items-center justify-center bg-customLight bg-opacity-50 text-red-200 backdrop-blur-sm font-bold text-xl opacity-0 hover:opacity-100 transition-opacity duration-200 "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {project.projectTitle}
+                  Click to visit {project.projectTitle}
                 </a>
               </div>
               <div className="p-4">
-                <h2 className="text-xl font-semibold ">
-                  {project.projectTitle}
+                <h2 className="text-xl font-semibold flex items-center space-x-2">
+                  {project.projectTitle} &nbsp;
+                  <a
+                    href={project.projectGIT}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub className="text-2xl  hover:text-yellow-500" />
+                  </a>
                 </h2>
                 <p className="text-sm text-dark-400 mt-2">
                   {project.projectDescription.substring(0, 100)}

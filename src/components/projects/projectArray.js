@@ -2,6 +2,7 @@ const projectArray = [
   {
     projectColor: "before:bg-green-800",
     projectUrl: "https://cine-haven.vercel.app/",
+    projectGIT: "https://github.com/snagila/CineHaven",
     projectImg: "/images/CineHaven.png",
     projectTitle: "CineHaven",
     projectDescription:
@@ -11,6 +12,7 @@ const projectArray = [
   {
     projectColor: "before:bg-green-800",
     projectUrl: "https://activity-ledger.vercel.app/",
+    projectGIT: "https://github.com/snagila/activity-ledger",
     projectImg: "/images/Activity_Ledger.png",
     projectTitle: "Activity Ledger",
     projectDescription:
@@ -20,6 +22,7 @@ const projectArray = [
   {
     projectColor: "before:bg-green-800",
     projectUrl: "https://snagila.github.io/Calculator_MyVersion/",
+    projectGIT: "https://github.com/snagila/Calculator_MyVersion",
     projectImg: "/images/Calculator.png",
     projectTitle: "Calculator",
     projectDescription:
