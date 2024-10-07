@@ -5,9 +5,12 @@ import { FaGithub } from "react-icons/fa6";
 const Projects = () => {
   return (
     <>
-      <div className="bg-customLight pt-[4rem] md:pt-[4rem] pb-[2rem]">
+      <div
+        className="bg-customLight pt-[4rem] md:pt-[4rem] pb-[2rem]"
+        id="projects"
+      >
         <h2 className="text-xl md:text-3xl font-bold text-center text-orange-500 mb-16 tracking-wider font-mono">
-          My Skills
+          My Projects
         </h2>
 
         <div className="hello w-[80%] pt-[1rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
