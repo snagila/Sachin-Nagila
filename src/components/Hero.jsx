@@ -9,10 +9,10 @@ import b from "../assets/b.jpg";
 
 const Hero = () => {
   return (
-    <div className="h-[88vh] mt-20 sm:mt-[10vh] bg-customlight">
-      <div className="absolute inset-0 overflow-hidden">
+    <div className="h-[88vh] mt-20 sm:mt-[10vh] bg-customlight backdrop-blur-sm">
+      {/* <div className="absolute inset-0 overflow-hidden">
         <BackgroundParticles />
-      </div>
+      </div> */}
 
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>

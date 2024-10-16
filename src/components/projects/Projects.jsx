@@ -1,12 +1,13 @@
 import React from "react";
 import projectArray from "./projectArray";
 import { FaGithub } from "react-icons/fa6";
+import { VscGithub } from "react-icons/vsc";
 
 const Projects = () => {
   return (
     <>
       <div
-        className="bg-customLight pt-[4rem] md:pt-[4rem] pb-[2rem]"
+        className="bg-customLight pt-[4rem] md:pt-[4rem] pb-[2rem] relative"
         id="projects"
       >
         <h2 className="text-xl md:text-3xl font-bold text-center text-orange-500 mb-16 tracking-wider font-mono">
@@ -46,6 +47,15 @@ const Projects = () => {
                   >
                     <FaGithub className="text-2xl  hover:text-yellow-500" />
                   </a>
+                  {project.projectGIT2 && (
+                    <a
+                      href={project.projectGIT2}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <VscGithub className="text-2xl hover:text-yellow-500" />
+                    </a>
+                  )}
                 </h2>
                 <p className="text-sm text-dark-400 mt-2">
                   {project.projectDescription.substring(0, 100)}

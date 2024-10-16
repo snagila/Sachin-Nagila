@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
-const BackgroundParticles = ({ header, hero }) => {
+const BackgroundParticles = ({}) => {
   const particlesInit = useCallback(async (engine) => {
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -22,9 +22,9 @@ const BackgroundParticles = ({ header, hero }) => {
         loaded={particlesLoaded}
         options={{
           background: {
-            // color: {
-            //   value: header ? "transparent" : "#FFFCF7",
-            // },
+            color: {
+              value: "transparent",
+            },
           },
           fpsLimit: 100,
           interactivity: {

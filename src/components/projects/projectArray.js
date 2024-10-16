@@ -1,13 +1,34 @@
 const projectArray = [
   {
     projectColor: "before:bg-green-800",
+    projectUrl: "https://artistic-nepal-admin-ui.vercel.app/",
+    projectGIT: "https://github.com/snagila/artisticNepal_admin_UI",
+    projectGIT2: "https://github.com/snagila/artisticNepal_admin_api",
+    projectImg: "/images/AN-Admin.png",
+    projectTitle: "Artistic Nepal Admin CMS (Full-Stack)",
+    projectDescription: "Admin portal for Artistic Nepal e-commerce platform. ",
+    projectLang: [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+      "JWT",
+      "Cloudinary",
+      "Redux",
+      "BootStrapCSS",
+      "Joi",
+      "Bcrypt",
+    ],
+  },
+  {
+    projectColor: "before:bg-green-800",
     projectUrl: "https://cine-haven.vercel.app/",
     projectGIT: "https://github.com/snagila/CineHaven",
     projectImg: "/images/CineHaven.png",
     projectTitle: "CineHaven",
     projectDescription:
       "The platform allows users to search for movies, view trailers, access movie information.",
-    projectLang: ["ReactJs", "BootStrapCSS", "Context API", "API Integration"],
+    projectLang: ["React", "BootStrapCSS", "Context API", "API Integration"],
   },
   {
     projectColor: "before:bg-green-800",
@@ -17,7 +38,7 @@ const projectArray = [
     projectTitle: "Activity Ledger",
     projectDescription:
       "A simple Activity Tracker app that enables users to log and manage daily activities, with data stored locally in the app's state.",
-    projectLang: ["ReactJs", "BootStrapCSS"],
+    projectLang: ["React", "BootStrapCSS"],
   },
   {
     projectColor: "before:bg-green-800",
@@ -27,7 +48,7 @@ const projectArray = [
     projectTitle: "Calculator",
     projectDescription:
       "A basic calculator app that performs standard arithmetic operations, with all calculations handled",
-    projectLang: ["ReactJs", "BootStrapCSS"],
+    projectLang: ["React", "BootStrapCSS"],
   },
 ];
 
