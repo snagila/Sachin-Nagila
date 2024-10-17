@@ -14,7 +14,7 @@ const Projects = () => {
           My Projects
         </h2>
 
-        <div className="hello w-[80%] pt-[1rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
+        <div className="hello w-[80%] pt-[1rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]  ">
           {projectArray.map((project, index) => (
             <div
               key={index}
