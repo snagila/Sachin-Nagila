@@ -1,6 +1,30 @@
 const projectArray = [
   {
     projectColor: "before:bg-green-800",
+    projectUrl:
+      "https://penny-pilot-hsxiip171-sachin-nagilas-projects.vercel.app/",
+    projectGIT: "https://github.com/snagila/PennyPilot",
+    projectGIT2: "https://github.com/snagila/penny-pilot-api",
+    projectImg: "/images/PeenyPilot.png",
+    projectTitle: "Penny Pilot (Full-Stack)",
+    projectDescription: " Platform for user to record transactions. ",
+    projectLang: [
+      "TypeScript",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+      "Redux",
+      "Redux Thunk",
+      "React Hook Form ",
+      "BootStrapCSS",
+      "JWT",
+      "Bcrypt",
+      "...rest",
+    ],
+  },
+  {
+    projectColor: "before:bg-green-800",
     projectUrl: "https://artistic-nepal-client-ui.vercel.app/",
     projectGIT: "https://github.com/snagila/artisticNepal_client_UI",
     projectGIT2: "https://github.com/snagila/artisticNepal_client_API",
@@ -80,15 +104,15 @@ const projectArray = [
       "A basic calculator app that performs standard arithmetic operations, with all calculations handled",
     projectLang: ["React", "BootStrapCSS"],
   },
-  {
-    projectColor: "before:bg-green-800",
-    projectUrl: "https://sachinnagila.com/",
-    projectGIT: "https://github.com/snagila/Sachin-Nagila",
-    projectImg: "/images/Portfolio.png",
-    projectTitle: "My Portfolio",
-    projectDescription: "A portfolio website.",
-    projectLang: ["React", "TailwindCSS"],
-  },
+  // {
+  //   projectColor: "before:bg-green-800",
+  //   projectUrl: "https://sachinnagila.com/",
+  //   projectGIT: "https://github.com/snagila/Sachin-Nagila",
+  //   projectImg: "/images/Portfolio.png",
+  //   projectTitle: "My Portfolio",
+  //   projectDescription: "A portfolio website.",
+  //   projectLang: ["React", "TailwindCSS"],
+  // },
 ];
 
 export default projectArray;

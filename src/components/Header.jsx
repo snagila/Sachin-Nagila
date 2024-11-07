@@ -4,7 +4,7 @@ import { GiGiftOfKnowledge } from "react-icons/gi";
 import { motion } from "framer-motion";
 
 const navItems = [
-  { icon: <FaHome />, name: "Home", to: "#hero" },
+  { icon: <FaHome />, name: "Home", to: "#" },
   { icon: <FaUser />, name: "About", to: "#about" },
   { icon: <FaProjectDiagram />, name: "Projects", to: "#projects" },
   { icon: <GiGiftOfKnowledge />, name: "Skills", to: "#skills" },
