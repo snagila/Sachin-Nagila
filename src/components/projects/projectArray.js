@@ -1,8 +1,7 @@
 const projectArray = [
   {
     projectColor: "before:bg-green-800",
-    projectUrl:
-      "https://penny-pilot-hsxiip171-sachin-nagilas-projects.vercel.app/",
+    projectUrl: "https://penny-pilot-bice.vercel.app/",
     projectGIT: "https://github.com/snagila/PennyPilot",
     projectGIT2: "https://github.com/snagila/penny-pilot-api",
     projectImg: "/images/PeenyPilot.png",
