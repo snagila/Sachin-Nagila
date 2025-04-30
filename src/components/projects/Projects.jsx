@@ -1,4 +1,3 @@
-import React from "react";
 import projectArray from "./projectArray";
 import { FaGithub } from "react-icons/fa6";
 import { VscGithub } from "react-icons/vsc";
