@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="flex flex-col gap-4 items-center">
             <h1 className="text-[35px] md:text-[50px] text-black font-bold">
               Hi, I'm <span className="text-orange-600">Sachin </span>{" "}
-              <span class="wave">👋</span>
+              <span className="wave">👋</span>
             </h1>
             <TextAnimation />
           </div>
