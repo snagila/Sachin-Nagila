@@ -1,9 +1,7 @@
-import React from "react";
 import "../../src/App.css";
 import { motion } from "framer-motion";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid/index.js";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import BackgroundParticles from "./BackgroundParticles";
 import TextAnimation from "./TextAnimation";
 import b from "../assets/b.jpg";
 
@@ -18,7 +16,7 @@ const Hero = () => {
         <div>
           <div className="flex flex-col gap-4 items-center">
             <h1 className="text-[35px] md:text-[50px] text-black font-bold">
-              Hi, I'm <span className="text-orange-600">Sachin </span>{" "}
+              Hi, I&apos;m <span className="text-orange-600">Sachin </span>{" "}
               <span className="wave">👋</span>
             </h1>
             <TextAnimation />
