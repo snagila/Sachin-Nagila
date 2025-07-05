@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -7,6 +6,7 @@ import {
   FaNodeJs,
   FaGit,
   FaGithub,
+  FaAngular,
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -73,6 +73,7 @@ const skills = [
     name: "Git",
   },
   { icon: <FaGithub className="w-6 h-6" />, name: "GitHub" },
+  { icon: <FaAngular className="w-6 h-6 text-red-500" />, name: "Angular" },
 ];
 
 const Skills = () => {

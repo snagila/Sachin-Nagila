@@ -16,9 +16,9 @@ const About = () => {
             <div className="flex justify-center">
               <p className="text-center md:text-lg leading-relaxed  ">
                 Hi, I’m Sachin, a full-stack developer with 1 year and 6 months
-                of experience. Besides my formal education, I completed an
-                intensive bootcamp at Dented Code to further upskill and expand
-                my knowledge. <br /> I’m passionate about all aspects of
+                of hands on experience. Besides my formal education, I completed
+                an intensive bootcamp to further upskill and expand my
+                knowledge. <br /> I’m passionate about all aspects of
                 development—from crafting intuitive user interfaces to
                 optimizing app performance and functionality.My expertise spans
                 both frontend and backend development, allowing me to build
